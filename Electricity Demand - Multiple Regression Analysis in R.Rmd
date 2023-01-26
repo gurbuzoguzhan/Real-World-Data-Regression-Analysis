@@ -149,7 +149,7 @@ ggplot(regression_data, aes(x = gdp_pct + precipitation + urban, y= demand_pct))
 
 #We can also conclude that the model has also some weaknesses.
 
-#Firstly, it only has one year to observe. The model can benefit from if we can include more than one year and turn the model into a time series/panel data analysis. Lastly, there are also some statistically significant variables at the 10% level which is below the level of 1%.
+#Firstly, it only has one year to observe. The model can benefit from better explanation if we can include more than one year and turn the model into a time series/panel data analysis. Lastly, there are also some statistically significant variables at the 10% level which is below the level of 1%.
 
 #Secondly, the standard error for the urbanization is high. A standard error of 9.9% for a country is a bit high which may lead to incorrect insights.
 

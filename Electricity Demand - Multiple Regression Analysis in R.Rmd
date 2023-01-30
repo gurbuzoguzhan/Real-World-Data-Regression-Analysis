@@ -6,7 +6,7 @@ output:
 author: Oguzhan Gurbuz
 ---
 
-#This is a multivariate regression analysis examining whether there is a relationship electricity demand (response variable) and GDP per capita in USD, urban population percentage of total population and precipitation in a country (predictor variables).
+#This is a multivariate regression analysis examining whether there is a relationship between the electricity demand (response variable) and GDP per capita in USD, urban population percentage of total population & precipitation in a country (predictor variables).
 
 #I collected the data used in the model from different databases. The key points about the data are explained below:
 

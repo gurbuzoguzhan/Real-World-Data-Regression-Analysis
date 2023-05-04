@@ -6,7 +6,7 @@ output:
 author: Oguzhan Gurbuz
 ---
 
-#This is a multivariate regression analysis examining whether there is a relationship between the electricity demand (response variable) and GDP per capita in USD, urban population percentage of total population & precipitation in a country (predictor variables).
+#This is a multivariate regression analysis examining whether there is a relationship between the electricity demand (dependent variable) and GDP per capita in USD, urban population percentage of total population & precipitation in a country (independent variables).
 
 #I collected the data used in the model from different databases. The key points about the data are explained below:
 
@@ -103,7 +103,7 @@ summary(demand_pct)
 #Multivariate Regression Analysis
 
 ```{r}
-#This analysis examines whether there is a relationship between the electricity demand per capita (as the response variable) and precipitation, GDP per capita and urbanization percentage (as explanatory variables).
+#This analysis examines whether there is a relationship between the electricity demand per capita (as the dependent variable) and precipitation, GDP per capita and urbanization percentage (as independent variables).
 
 lin.model <- lm(demand_pct ~ gdp_pct + precipitation + urban, data = regression_data)
 
